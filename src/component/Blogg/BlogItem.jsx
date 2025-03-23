@@ -7,7 +7,7 @@ function BlogItem(props){
 		<div className="col-4">
             <div className="blog-box">
               <div className="blog-img">
-                <img src={props.blogImag} className="img-fluid" />
+                <img src="../../assets/images/post-1.jpg" className="img-fluid" />
               </div>
               <div className="blog-content">
                 <h3 className="blog-title">post title 1</h3>
@@ -30,10 +30,10 @@ function BlogItem(props){
           <div className="col-4">
             <div className="blog-box">
               <div className="blog-img">
-                <img src={props.blogImag} className="img-fluid" />
+                <img src="../../assets/images/post-2.jpg" className="img-fluid" />
               </div>
               <div className="blog-content">
-                <h3 className="blog-title">post title 1</h3>
+                <h3 className="blog-title">post title 2</h3>
                 <p className="blog-desc">
                   Proin eget tortor risus. Pellentesque in ipsum id orci porta
                   dapibus. Praesent sapien massa, convallis a pellentesque nec,
@@ -42,10 +42,10 @@ function BlogItem(props){
               </div>
               <div className="blog-footer">
                 <div className="post-author">
-                  <p className="author">Elham Bashari</p>
+                  <p className="author">Ada Porhossein</p>
                 </div>
                 <div className="post-date">
-                  <span className="bi bi-clock"></span> 10 min
+                  <span className="bi bi-clock"></span> 15 min
                 </div>
               </div>
             </div>
@@ -53,10 +53,10 @@ function BlogItem(props){
           <div className="col-4">
             <div className="blog-box">
               <div className="blog-img">
-                <img src={props.blogImag} className="img-fluid" />
+                <img src="../../assets/images/post-3.jpg" className="img-fluid" />
               </div>
               <div className="blog-content">
-                <h3 className="blog-title">post title 1</h3>
+                <h3 className="blog-title">post title 3</h3>
                 <p className="blog-desc">
                   Proin eget tortor risus. Pellentesque in ipsum id orci porta
                   dapibus. Praesent sapien massa, convallis a pellentesque nec,
@@ -65,10 +65,10 @@ function BlogItem(props){
               </div>
               <div className="blog-footer">
                 <div className="post-author">
-                  <p className="author">Elham Bashari</p>
+                  <p className="author">Babak Kisomi</p>
                 </div>
                 <div className="post-date">
-                  <span className="bi bi-clock"></span> 10 min
+                  <span className="bi bi-clock"></span> 20 min
                 </div>
               </div>
             </div>
